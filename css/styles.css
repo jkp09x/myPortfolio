@@ -1,5 +1,13 @@
+/* font-family: 'Arvo', serif;
+font-family: 'Courier Prime', monospace;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
 body {
+  color: #B7F7FE;
   background-color: #000A38;
+  font-family: 'Source Code Pro', monospace;
   /* #000A38 */
   /* #1471BC */
   /* #40C6DA */
@@ -8,6 +16,8 @@ body {
   /* #006994 */
 }
 
-h1, h4 {
+.type-name, .type-subtitle {
+  text-align: center;
   color: #04C6DA;
+  font-family: 'Courier Prime', monospace;
 }
